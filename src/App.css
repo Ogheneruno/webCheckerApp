@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.MuiFormControl-fullWidth {
+  width: 145% !important;
+}
+
+.loader {
+  /* display: none !important; */
+  margin-left:  48% !important;
+}
+
+.MuiFormLabel-root {
+  font-size: 3rem !important;
+}
+
+.MuiInput-underline {
+  margin-top: 4rem !important;
+}
+
+.MuiButton-sizeSmall {
+  margin-top: 1rem !important;
+  background-color: grey !important;
+  padding: 10px 15px !important;
+}
+
+.MuiButton-sizeSmall:hover {
+  color: white !important;
+  background-color: black !important;
+}
