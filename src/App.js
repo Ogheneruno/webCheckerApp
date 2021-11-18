@@ -75,7 +75,7 @@ export default function OutlinedCard() {
 
 		try {
       <App />
-			let res = await axios.get(`http://localhost:1000/api/v1/test?url=${test}`, newTest);
+			let res = await axios.get(`https://websiteaccessibilityapi.herokuapp.com/api/v1/test?url=${test}`, newTest);
 			if (res.data.success) toast.success(res.data.msg);
       setResult(res.data.allResults.issues);
 		} catch (err) {
